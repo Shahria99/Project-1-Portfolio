@@ -3,7 +3,7 @@ body{
   font-family: 'Poppins', sans-serif;
   padding-top: 3rem;
 }
-/* Nav-bar start */
+/* Header start */
 header{
   display: flex;
   position: fixed;
@@ -29,7 +29,7 @@ header .text-i{
   color: orangered;
 }
 
-nav ul{
+header nav ul{
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -69,9 +69,10 @@ a:hover{
   transition: ease;
   transition-duration: .5s;
 }
-/* Nav-bar End */
+/* Header End */
 
-/* banner section */
+
+/* banner section start */
 .banner-section{
   margin-top: 4px;
 }
@@ -143,4 +144,74 @@ justify-content: flex-end;
   background-color: black;
   transition: ease;
   transition-duration: .5s;
+}
+/* banner section end */
+
+/* about-section start */
+.about-section{
+  width: auto;
+  background-color: rgb(245, 235, 215);
+  padding: 100px;
+  margin: 30px 100px 0 100px;
+}
+.about-me{
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+.about-description{
+  color: black;
+  text-align: center;
+  font-size: 15px;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.about-info{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* about-section end */
+
+/* Slills-section start */
+.skills-section{
+  width: auto;
+  background-color: #f6f6f6;
+  padding: 100px;
+  margin: 0px 100px;
+}
+.section-title{
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0;
+}
+.skills-section-description{
+  color: black;
+  text-align: center;
+  font-size: 15px;
+}
+.skills-container{
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  gap: 30px;
+  margin-top: 40px;
+  
+  
+}
+.skills{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 4px rgba(81, 88, 96, 0.3);
+  padding: 10px;
+}
+.skills-title{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 2px;
+  display: block;
+  
 }
