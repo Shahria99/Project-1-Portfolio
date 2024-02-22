@@ -213,5 +213,38 @@ justify-content: flex-end;
   font-weight: bold;
   margin-top: 2px;
   display: block;
-  
+}
+/* skills section end */
+
+/* footer section start */
+footer{
+  display: flex;
+  background-color: rgb(245, 235, 215);
+  justify-content: space-between;
+  align-items: top;
+  gap: 100px;
+  padding: 130px 150px;
+  /* width: 100%; */
+}
+.social-link{
+  display: flex;
+margin-left:40%;
+gap: 15px;
+
+}
+
+.footer-column{
+  margin-right: auto;
+  width: 50%;
+}
+
+  .form-info input[type="text"], .form-info input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: gray;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0;
+    width: 100%;
 }
